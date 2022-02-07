@@ -330,8 +330,8 @@ export default function PatientDetails() {
         </Box>
         </div><br />
 
-        <div className={styles.charts}>
-          {/* <div className={styles.ecgPlot}>
+        {/* <div className={styles.charts}>
+          <div className={styles.ecgPlot}>
               <h3>ECG Plot</h3><br />
               <Chart type="line" chart_name="ECG" width={40} height={10}/>
           </div><br /><br />
