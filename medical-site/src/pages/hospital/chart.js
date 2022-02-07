@@ -17,7 +17,7 @@ const xValues_temp = [1,2,3,4,5,6,7,8,9,10]
 const temp_values = [36.5, 36.5, 36.2, 36.7, 35, 36.7, 36.5, 36.5, 36.2, 36.7, 35]
 
 const ecg_data = {
-    labels: xValues_ecg,
+    'labels': xValues_ecg,
     datasets: [{
       fill: true,
       backgroundColor: "rgba(3, 181, 117, 0.7)",
@@ -33,7 +33,7 @@ const ecg_data = {
   }
 
   const spo2_data = {
-    labels: xValues_spo2,
+    'labels': xValues_spo2,
     datasets: [{
       fill: true,
       backgroundColor: "rgba(85, 142, 255, 0.5)",
@@ -43,7 +43,7 @@ const ecg_data = {
   }
 
   const temp_data = {
-    labels: xValues_temp,
+    'labels': xValues_temp,
     datasets: [{
       fill: true,
       backgroundColor: "rgba(231, 79, 72, 0.8)",
