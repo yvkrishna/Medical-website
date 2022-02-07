@@ -331,7 +331,7 @@ export default function PatientDetails() {
         </div><br />
 
         <div className={styles.charts}>
-          <div className={styles.ecgPlot}>
+          {/* <div className={styles.ecgPlot}>
               <h3>ECG Plot</h3><br />
               <Chart type="line" chart_name="ECG" width={40} height={10}/>
           </div><br /><br />
@@ -350,7 +350,7 @@ export default function PatientDetails() {
                 </div>
             </Grid>
           </Grid>
-        </div><br /><br />
+        </div><br /><br /> */}
 
         <div className={styles.sensorTable}>
           <h3>Sensor Data Readings</h3><br />
