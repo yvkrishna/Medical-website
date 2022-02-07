@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+@font-face {
+ font-family: HelveticaNueue;
+ src: url('../../public/fonts/helveticaneue/HelveticaNeue.ttf');
+}
+
+:root{
+
+    --HelveticaNueue: HelveticaNueue;
+
+    --primarary-color1: #336CFB;
+    --primarary-color2: #558EFF;
+    --primarary-color3: #A9C1FD;
+    --primarary-color4: #EBF0FF;
+    --primarary-color5: #1F58E7;
+    --primarary-color6: #EBF0FF;
+
+    --secondary-color: #52575C;
+
+    --white-color: #FFFFFF;
+
+    --warning-color1:#FAC032;
+    --warning-color2:#EFAD0A;
+    --warning-color3:#FCDF98;
+
+    --success-color1:#16D090;
+    --success-color2:#03B575;
+    --success-color3:#34EEAE;
+
+    --danger-color1: #FF6760;
+    --danger-color2: #E74F48;
+    --danger-color3: #FF7E77;
+
+}
+
+*{
+    /* font-family: var(--HelveticaNueue); */
+    font-family: 'lato';
+    padding: 0;
+    margin: 0;
+}
+ 
+
+
+
+
+.primarary1{
+    background: #336CFB;
+}
+.primarary2{
+    background: #558EFF;
+}
+.primarary3{
+    background: #A9C1FD;
+}
+.primarary4{
+    background: #EBF0FF;
+}
+.primarary5{
+    background: #1F58E7;
+}
+
+
+.secondary1{
+    background: #25282B;
+}
+
+
+.white{
+    background: #FFFFFF;
+}
+
+
+.warning1{
+    background: #FAC032;
+}
+.warning2{
+    background: #EFAD0A;
+}
+.warning3{
+    background: #FCDF98;
+}
+
+
+.success1{
+    background: #16D090;
+}
+.success2{
+    background: #03B575;
+}
+.success3{
+    background: #34EEAE;
+}
+
+.danger1{
+    background: #FF6760;
+}
+.danger2{
+    background: #E74F48;
+}
+.danger3{
+    background: #FF7E77;
+}
+
+body{
+    background: var(--primarary-color6);
+    padding: 1% 3%;
+    width: 90%;
+}

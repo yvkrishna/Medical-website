@@ -1,0 +1,65 @@
+.appBarBackground{
+    background: var(--primarary-color4);
+    color: var(--secondary-color);
+    display: flex;
+}
+
+.bodyPatientsList{
+    padding: 3%;
+}
+
+.bodyPatientsTable{
+    background: #fff;
+}
+
+.allTabsList{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.allTabsList div{
+    padding: 10px;
+    color: var(--secondary-color)
+}
+
+.allTabsList div:hover{
+    padding: 10px;
+    color: var(--primarary-color1);
+}
+
+.HeaddingName{
+    color: var(--primarary-color1);
+    font-weight: 900;
+}
+
+.icon{
+    border-radius: 50%;
+}
+
+.cardMain{
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+.cardBody{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+    color: var(--primarary-color1);
+}
+
+.cardIcon{
+    font-size: 50px;
+}
+
+.sensorName{
+    color: var(--secondary-color);
+    font-weight: 700;
+}
+
+.ecgPlot, .spo2Plot, .tempPlot, .sensorTable{
+    background: #fff;
+    padding: 2%;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
