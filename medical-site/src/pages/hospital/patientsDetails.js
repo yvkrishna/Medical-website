@@ -228,7 +228,7 @@ export default function PatientDetails() {
                       aria-label="show 17 new notifications"
                       color="inherit"
                     >
-                      <Badge badgeContent={17} color="error">
+                      <Badge badgeContent={5} color="error">
                         <NotificationsIcon />
                       </Badge>
                     </IconButton>
@@ -264,11 +264,10 @@ export default function PatientDetails() {
         </div><br /><br />
 
         <div className={styles.allTabsList}>
-            <div><b>Dashboard</b></div>
             <div><b>Patients List</b></div>
-            <div><b>Treatment Effects</b></div>
+            <div><b>Prognosis</b></div>
+            <div><b>Diagnosis</b></div>
             <div><b>Patient Reports</b></div>
-            <div><b>Work</b></div>
         </div><br /><br />
 
         <div className={styles.cards}>
@@ -330,7 +329,7 @@ export default function PatientDetails() {
         </Box>
         </div><br />
 
-        {/* <div className={styles.charts}>
+        <div className={styles.charts}>
           <div className={styles.ecgPlot}>
               <h3>ECG Plot</h3><br />
               <Chart type="line" chart_name="ECG" width={40} height={10}/>
@@ -350,7 +349,7 @@ export default function PatientDetails() {
                 </div>
             </Grid>
           </Grid>
-        </div><br /><br /> */}
+        </div><br /><br />
 
         <div className={styles.sensorTable}>
           <h3>Sensor Data Readings</h3><br />

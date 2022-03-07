@@ -58,8 +58,29 @@
     font-weight: 700;
 }
 
-.ecgPlot, .spo2Plot, .tempPlot, .sensorTable{
+.ecgPlot, .spo2Plot, .tempPlot, .sensorTable, .risk_model, .survival_model, .hazard_model{
     background: #fff;
     padding: 2%;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+.parameter_names{
+    color: var(--primarary-color1);
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.parameter_values{
+    color: var(--success-color2);
+}
+
+.model_predictions_grid{
+    border-left: 8px solid;
+    background-color: #ddffff!important;
+    border-color: #2196F3!important;
+    border-radius: 7px;
+}
+
+.modelPrediction_btn{
+    background-color: var(--primarary-color1);
 }
